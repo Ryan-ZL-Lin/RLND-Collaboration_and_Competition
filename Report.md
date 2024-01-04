@@ -20,11 +20,19 @@ The corresponding model weights could be found in checkpoints/ folder.
    
 ## Parameters Used in Neural Network
 To compare the training speed and the final outcome, I used different units in layer to train the model.
-### Mode B (the training results are saved in checkpoints/v2) - 256 units in first layer and 128 units in second layer (for both Actor and Critic)
+### Mode B (the training results are saved in checkpoints/v2) 
+For both Actor and Critic model
+- 256 units in the first layer
+- 128 units in the second layer 
+
 Here is the training result, it takes 920 episodes with 1 hour 8 minutes.
 <img width="631" alt="training Result_v2" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/f6d8af91-9c33-4aec-a7e9-18055cdb033d">
 
-### Mode C (the training results are saved in checkpoints/v3) - 128 units in frist layer and 64 units in second layer (for both Actor and Critic)
+### Mode C (the training results are saved in checkpoints/v3) 
+For both Actor and Critic model
+- 128 units in the frist layer
+- 64 units in the second layer
+  
 Here is the training result, it takes 1033 episodes with 1 hour and 4 minutes.
 <img width="628" alt="training Result_v3" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/aa4a723b-b273-4cfc-a9b0-fd063dacfcfc">
 
