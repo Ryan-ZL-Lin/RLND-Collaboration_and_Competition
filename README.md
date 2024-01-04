@@ -44,3 +44,12 @@ If you'd like to train the agent on AWS (and have not [enabled a virtual screen]
 
 ### Step 3: Explore the Environment
 After you have followed the instructions above, open **Tennis.ipynb** (located in the **p3_collab-compet/** folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
+
+
+## Solving the Environment
+The environment is considered solved when having an average scoreat least 0.5 over 100 episodes.
+
+
+## Instructions
+Open tennis.ipynb and run the cell sequentially to train the model. Please note that **step 3 - Take Random Actions in the Environment** is for infomration only, which can be skipped.
+Once the model is trained, you will find the checkpoints of Actor and Critic of both agents are saved accordingly.
