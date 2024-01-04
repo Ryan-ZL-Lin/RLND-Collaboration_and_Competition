@@ -43,12 +43,16 @@ Reply Buffer plays an important role in MADDPG, I tested out two different modes
 
 ### Mode A (the training reuslts are saved in checkpoints/v1)
 Two agents shared the same Reply Buffer, however, during the learning process, each agent only takes its own experience from Reply Buffer and update its own Critic model weights. It's similar to the approch used [HERE](https://github.com/JKWalleiee/Udacity-DRL-collab-compet/blob/main/maddpg_agents.py)  
+
+
 The following chart shows the training result, which achieves +0.5 in 2871 episodes by taking around 3 hours.
 <img width="662" alt="Training Result_v1" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/a0e4b47e-6e31-41d4-9427-868071a150f1">
 
 
 ### Mode B (the training results are saved in checkpoints/v2)
-Two agents shared the same Reply Buffer, each agent just takes random exeprience from the Reply Buffer to go for ther own learning process and update their own Critic model weights. It's similar to the approach used [HERE](https://github.com/ravishchawla/Reinforcement-Learning-NanoDegree/blob/master/Project%203%20-%20Collaboration%20and%20Competition/multiagents.py)
+Two agents shared the same Reply Buffer, each agent just takes random exeprience from the Reply Buffer to go for ther own learning process and update their own Critic model weights. It's similar to the approach used [HERE](https://github.com/ravishchawla/Reinforcement-Learning-NanoDegree/blob/master/Project%203%20-%20Collaboration%20and%20Competition/multiagents.py)  
+
+
 The following chart shows the training result, which achieves +0.5 in 920 episodes by taking around 1 hour.  
 <img width="631" alt="training Result_v2" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/88b33de3-f5ec-43d2-a2b4-fb6df3642c34">
 
