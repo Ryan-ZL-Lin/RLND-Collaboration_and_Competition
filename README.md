@@ -41,3 +41,6 @@ Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-det
 
 **(For AWS)**  
 If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the Linux operating system above.)
+
+### Step 3: Explore the Environment
+After you have followed the instructions above, open **Tennis.ipynb** (located in the **p3_collab-compet/** folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
