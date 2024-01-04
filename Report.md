@@ -63,3 +63,7 @@ Please refer to Dict_Hyperparams.py for all the used hyper parameters. Here is t
 <img width="549" alt="Hyper_Parameters" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/757a028d-a694-4bdd-b4b4-265bdc3b99b6">
 
 
+# Ideas for Furture Work
+- Try out different hyper parameters combination.
+- Using [MAPPO](https://arxiv.org/pdf/2103.01955.pdf) to implement this project to see whcih algorithm is more stable.
+  
