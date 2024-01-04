@@ -52,4 +52,4 @@ The environment is considered solved when having an average scoreat least 0.5 ov
 
 ## Instructions
 Open tennis.ipynb and run the cell sequentially to train the model. Please note that **step 3 - Take Random Actions in the Environment** is for infomration only, which can be skipped.
-Once the model is trained, you will find the checkpoints of Actor and Critic of both agents are saved accordingly.
+Once the model is trained, you will find the model weights of Actor and Critic of both agents are saved accordingly.
