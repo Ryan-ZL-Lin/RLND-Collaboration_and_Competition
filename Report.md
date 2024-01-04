@@ -44,5 +44,10 @@ Two agents shared the same Reply Buffer, each agent just takes random exeprience
 The following chart shows the training result, which achieves +0.5 in 920 episodes by taking around 1 hour.  
 <img width="631" alt="training Result_v2" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/88b33de3-f5ec-43d2-a2b4-fb6df3642c34">
 
+**Conclusion: The additional mechanism for each agent to take its own experiecne from shared Reply buffer is unnecessary.**
+
 ## Hyper Parameters
+Please refer to Dict_Hyperparams.py for all the used hyper parameters. Here is the one for v3 (Mocde C above): 
+<img width="549" alt="Hyper_Parameters" src="https://github.com/Ryan-ZL-Lin/RLND-Collaboration_and_Competition/assets/33056320/757a028d-a694-4bdd-b4b4-265bdc3b99b6">
+
 
